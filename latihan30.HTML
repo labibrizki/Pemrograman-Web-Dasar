@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout Sederhana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: blue;
+      padding: 10px;
+      text-align: center;
+      font-size: 50px;
+    }
+    .container {
+      display: flex;
+      background-color: rgb(109, 133, 211);
+    }
+    .menu {
+      width: 200px;
+      height: 1000px;
+      background-color: #ff00d9;
+      padding: 10px;
+      font-size: 25px;
+    }
+    .content {
+      flex: 1;
+      padding: 10px;
+      font-size: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    Header
+  </div>
+
+  <div class="container">
+    <div class="menu">
+      Menu
+    </div>
+    <div class="content">
+      Content
+    </div>
+  </div>
+
+</body>
+</html>

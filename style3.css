@@ -1,0 +1,55 @@
+   .navbar{
+    background-color:mediumpurple;
+    margin: 0px;
+    padding: 10px;}
+
+    .container{
+        display:flex;
+        justify-content:center;
+    align-items: center;}
+
+    .menu{
+        margin: 0px;
+        display: flex;
+        list-style: none;
+        padding: 0px; }
+
+    .menu li{
+        padding-left: 0px;
+        margin-right: 10px;}
+
+    .menu li a{
+        padding: 30px;
+        color:white;
+        text-decoration: none;
+        display: inline-block;}
+ .story{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top:0px;
+ }
+ .star{
+    margin-top: 15px;
+    padding-right: 5px;
+    display: flex;
+    list-style: none;
+ }
+.star li b{
+    padding: 15px;
+    color: mediumpurple;
+    text-decoration: none;
+    display: inline-block;
+}
+.bawor{
+    color:mediumslateblue;
+    background-color:easy whitesmoke;
+    height: 100%;
+    max-height: 200px;
+}
+.bawor h1{
+    position: fixed;
+    top: 125px;
+    left: 550px;
+    color: mediumpurple;
+}
