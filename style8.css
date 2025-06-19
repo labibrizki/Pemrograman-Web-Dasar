@@ -1,0 +1,233 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+       .logo-container img {
+            height: 80px;
+        }
+       .brand-name h1 {
+            font-family: Verdana, sans-serif;
+            font-size: 28px;
+            color: #4d4d4d;
+            margin: 0;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color:mediumpurple;
+            padding: 10px 0;
+        }
+
+        .table img{
+            width: 150px;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color:white;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        .buku-judul {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .display-rak{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .auth-buttons a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login span {
+            color: mediumpurple;
+        }
+
+        .registrasi span {
+            color:mediumpurple;
+        }
+
+        .best-seller {
+            padding: 40px 20px;
+        }
+
+        .best-seller h2 {
+            text-align: center;
+            color:mediumpurple;
+            margin-bottom: 30px;
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .book-card {
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-card img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .buy-btn {
+            background-color: black;
+            color: white;
+            padding: 15px 50px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bolder;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .dropdown {
+            position:relative;
+        }
+
+        .dropdown-menu{
+            display: none;
+            position: absolute;
+            top: 30px;
+            background-color: #e9ecef;
+            padding: 10px 0;
+            min-width: 210px;
+            list-style: none;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .dropdown:hover .dropdown-menu{
+            display: block ;
+        }
+
+        .dropdown-menu li a{
+            display: block;
+            padding: 10px 10px;
+            color: black;
+            text-decoration: none;
+            white-space: nowarp;
+        }
+        
+        .dropdown-menu li a:hover{
+            background-color: mediumslateblue;
+        }
+
+        .dropdown-sub{
+            position:relative;
+        }
+
+        .dropdown-submenu{
+            display: none;
+            position: absolute;
+            top: 30px;
+            background-color: #e9ecef;
+            padding: 10px 0;
+            min-width: 210px;
+            list-style: none;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 5px;
+
+        }
+        .dropdown-sub .dropdown-submenu{
+            top: -1px;
+            left: 100px;
+            margin-left: -10px;
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown-sub:hover .dropdown-submenu{
+            display: block;
+        }
+
+        .beli-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .beli-link{
+            background-color: mediumpurple;
+            color: white;
+            padding: 15px 50px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: (1px, 2vw, 18px);
+        }
